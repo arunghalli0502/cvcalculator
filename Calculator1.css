@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body
+{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ background-color: lightgray;
+ align-items: center;
+}
+
+.maindiv{
+    /* margin-top: 20px; */
+    width: 340px;
+    height: auto;
+    text-align: center;
+    /* border: 3px groove orange; */
+    box-shadow: 12px 12px 15px #7c7676 50px;
+}
+
+.display
+{
+    /* width: 324px; */
+    width: 100%;
+    height: 70px;
+    display: flex;    
+}
+.display>span{
+    width: 253px;
+}
+
+#result, #exp
+{
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-size: 40px;
+    text-align: left;
+    padding: 9px;
+   background-color: white;
+   color: black;
+}
+.input
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.numberpad
+{
+    /* padding-left: 6px; */
+    width: 100%;
+    /* height: 350px; */
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    /* align-items: center; */
+    background-color: black;
+}
+
+ button
+{
+    /* width: 63px;
+    height: 63px;
+    margin: 3px;
+    color: orange;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 100%; */
+    border: none;
+    width: 63px;
+    height: 63px;
+    margin: 3px;
+    color: white;
+    background-color: transparent;
+    font-size: 25px;
+}
+button:hover, .lastcolumn button:hover
+{
+    background-color:gray;
+    border-color:chartreuse;
+    color: white;
+}
+.lastcolumn 
+{
+    float: right;
+    background-color: gray;
+}
+.lastcolumn button, #clear, #bracess, #mod
+{
+     width: 63px;
+    height: 63px;
+    margin-left: 5px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+   
+}
+#clear
+{
+    color: white;
+    background-color: #6baf89;
+    width: 87px;
+    height: 70px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+#expresult
+{
+    width: 253px;
+    height: 70px;
+    resize: none;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 25px;
+}
